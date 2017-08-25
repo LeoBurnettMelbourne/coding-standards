@@ -43,6 +43,9 @@ moduleNo1-user-notification.css
 * No jQuery
 * Use [Airbnb styleguide](http://github.com/airbnb/javascript)
 
+## Tracking / analytics
+* Only track elements using `tracking` data attribute selectors, e.g. `document.querySelector('[data-tracking-selector-name]')`
+
 ## Version control
 * Commit message format `[component] - JIRA ticket number (if relevant) - description of change`. E.g. `[header] - HODSO-401 - Fix bug with icon width in Safari 10`
 * Review changes using `diff` before committing
