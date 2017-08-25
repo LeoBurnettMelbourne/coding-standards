@@ -7,9 +7,27 @@ Guidelines that should be adhered to when writing code. Consistent code is easie
 * When using Atom, install the following packages so we code consistently: `apm install linter linter-eslint linter-tslint linter-stylelint linter-tidy atom-typescript`
 * The following Atom packages are recommended, but optional `apm install file-icons emmet pigments terminal-plus`
 
-## File naming
-* Use dashes for most files: `file-name-1.jpg`
-* Only exception is javascript-like files, use camel-case: `ModuleNo1.js`
+## Naming conventions
+* For most files, use dashes: `file-name-1.jpg`.
+* Javascript-like files and modules, use camel-case: `moduleNo1.js`.
+* AEM components, use camel-case:
+
+```
+// AEM component
+moduleNo1
+
+// AEM component associated files
+moduleNo1.ts
+moduleNo1.css
+
+// AEM component front-end sub-modules use dashes
+moduleNo1-user-notification.ts
+moduleNo1-user-notification.css
+
+// AEM component with BEM syntax for styles
+.moduleNo1__heading,
+.moduleNo1__heading--large
+```
 
 ## HTML
 * Be sure to [validate](https://validator.w3.org/)
