@@ -42,6 +42,7 @@ moduleNo1-user-notification.css
 * ES6 Typescript
 * No jQuery
 * Use [Airbnb styleguide](http://github.com/airbnb/javascript)
+* When selecting DOM elements, use data attribute selectors, e.g. `this.element.querySelector('[data-component-name-selector-name]')`
 
 ## Tracking / analytics
 * Only track elements using `tracking` data attribute selectors, e.g. `document.querySelector('[data-tracking-selector-name]')`
