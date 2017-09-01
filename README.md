@@ -35,7 +35,7 @@ moduleNo1-user-notification.css
 
 ## Styles
 * BEM syntax, use [ampersand selector to nest styles](https://jonsuh.com/blog/sass-bem-selector-and-trailing-ampersand/#bem-selector-support)
-* Format: use Stylelint standard config with `colour hex code: long`
+* Format: use Stylelint standard config
 * Units: use REMs for font-size and layouts, EMs are also acceptable. Avoid pixels so that layouts can be scaled up and down 
 
 ## Javascript
