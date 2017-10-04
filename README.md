@@ -53,8 +53,6 @@ moduleNo1-user-notification.css
 
 ## README.md
 * Include in root of every project with the following:
-     * Job code
-     * Team members (inc producers, designers)
      * Front-end setup (e.g. `yarn install`)
      * Front-end development (e.g. `yarn start`)
      * Backend setup/server (no sensitive information)
