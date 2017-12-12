@@ -4,7 +4,9 @@ Guidelines that should be adhered to when writing code. Consistent code is easie
 ## Text editor/IDE
 
 * Use [EditorConfig](http://editorconfig.org/) standard settings
-* When using Atom, install the following packages so we code consistently: `apm install linter linter-eslint linter-tslint linter-stylelint linter-tidy atom-typescript`
+* Install the following packages so we code consistently:
+   - Atom: `apm install linter linter-eslint linter-tslint linter-stylelint linter-tidy atom-typescript`
+   - VSCode: `code --install-extension dbaeumer.vscode-eslint  --install-extension shinnn.stylelint`
 * The following Atom packages are recommended, but optional `apm install file-icons emmet pigments terminal-plus`
 
 ## Naming conventions
