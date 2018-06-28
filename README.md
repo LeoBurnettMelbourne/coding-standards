@@ -58,5 +58,6 @@ moduleNo1-user-notification.css
      * Front-end setup (e.g. `yarn install`)
      * Front-end development (e.g. `yarn start`)
      * Backend setup/server (no sensitive information)
+     * Deployment process / server environments
      * Browser support
 
