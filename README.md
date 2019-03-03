@@ -45,7 +45,7 @@ moduleNo1-user-notification.css
 * Use [Airbnb styleguide](http://github.com/airbnb/javascript)
 * When selecting DOM elements, use data attribute selectors, e.g. `this.element.querySelector('[data-component-name-selector-name]')`
 * Lint with [Prettier](https://prettier.io/) and [ESLint](https://eslint.org/)
-* Write JSDoc comments
+* Write [JSDoc](http://usejsdoc.org/) comments
 
 ## Tracking / analytics
 * Only track elements using `tracking` data attribute selectors, e.g. `document.querySelector('[data-tracking-selector-name]')`
